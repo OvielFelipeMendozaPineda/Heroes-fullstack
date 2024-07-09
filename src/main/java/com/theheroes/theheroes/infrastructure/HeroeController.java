@@ -1,4 +1,4 @@
-package com.theheroes.theheroes.infraestructure;
+package com.theheroes.theheroes.infrastructure;
 
 import java.util.ArrayList;
 

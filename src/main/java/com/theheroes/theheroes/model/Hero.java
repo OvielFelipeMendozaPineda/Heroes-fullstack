@@ -14,6 +14,7 @@ public class Hero {
     @GeneratedValue(strategy =  GenerationType.IDENTITY)
     private Long id;
     private String name;
+    private String imageUrl;
     private String description;
     private int yearOfCreation;
     private String category;
@@ -61,6 +62,13 @@ public class Hero {
     public void setCategory(String category) {
         this.category = category;
     }
+    public String getImageUrl() {
+        return imageUrl;
+    }
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+    
 
     
 
