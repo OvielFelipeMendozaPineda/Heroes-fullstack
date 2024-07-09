@@ -24,8 +24,9 @@ public class Hero {
     }
 
     
-    public Hero(String name, String description, int yearOfCreation, String category) {
+    public Hero(String name, String imageUrl, String description, int yearOfCreation, String category) {
         this.name = name;
+        this.imageUrl = imageUrl;
         this.description = description;
         this.yearOfCreation = yearOfCreation;
         this.category = category;

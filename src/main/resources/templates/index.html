@@ -6,13 +6,13 @@
 </head>
 <body>
     <ul>
-        <li th:each="heroe : ${heroes}">
+        <li th:each="heroe : ${heroList}">
             <object-heroe 
-                th:attr="nombre=${heroe.nombre}, 
-                         descripcion=${heroe.descripcion}, 
-                         fecha=${heroe.fecha}, 
-                         foto=${heroe.foto}, 
-                         universo=${heroe.universo}">
+                th:attr="nombre=${heroe.name}, 
+                         descripcion=${heroe.description}, 
+                         fecha=${heroe.yearOfCreation}, 
+                         foto=${heroe.imgUrl}, 
+                         universo=${heroe.category}">
             </object-heroe>
         </li>
     </ul>
